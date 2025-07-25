@@ -52,12 +52,8 @@ This is a simple full-stack blog web app built using **Laravel 12**. It includes
 4. **Set your DB config in .env:**
 
    ```makefile
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=blog_app
-   DB_USERNAME=root
-   DB_PASSWORD=
+   DB_CONNECTION=sqlite
+   DB_DATABASE=database/database.sqlite
    ```
 
 5. **Generate app key**
